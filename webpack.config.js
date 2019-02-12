@@ -42,7 +42,8 @@ module.exports = {
     new webpack.optimize.UglifyJsPlugin({ mangle: false, sourcemap: false }),
   ],
    devServer : {
-   port : 8090
+    host: '130.147.175.22',
+    port : 8091
 }
 };
 /*

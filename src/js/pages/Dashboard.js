@@ -4,8 +4,6 @@ import { Icon } from 'react-icons-kit';
 import {edit} from 'react-icons-kit/feather/edit';
 
 
-
-
 export default class Dashboard extends React.Component {
   render() {
     console.log("Upload Data");
