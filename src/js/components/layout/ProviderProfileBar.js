@@ -37,13 +37,13 @@ export default class ProviderProfileBar extends React.Component {
           <div class={"navbar-collapse " + navClass} id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
               <li>
-                <p class="navbar-text"><b>Dr. Apoorva</b></p>
+                <p class="navbar-text"><b>Dr. Hahn</b></p>
               </li>
               <li>
-                <p class="navbar-text"><b>PR077</b></p>
+                <p class="navbar-text"><b>PR0</b></p>
               </li>
               <li>
-                <p class="navbar-text"><b>Pediatrician</b></p>
+                <p class="navbar-text"><b>General Practitioner</b></p>
               </li>
               <li>
                 <p class ="navbar-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
