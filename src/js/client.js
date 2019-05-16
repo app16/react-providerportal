@@ -12,13 +12,12 @@ import ProviderLayout from "./pages/ProviderLayout";
 import ProviderDashboard from "./pages/ProviderDashboard";
 import ProviderPermissions from "./pages/ProviderPermisions"
 
-
 const app = document.getElementById('app');
 
 ReactDOM.render(
   <Router history={hashHistory}>
-    <Route path="/" component={ProviderLayout}>
-        <IndexRoute component={ProviderDashboard}></IndexRoute>
+    <Route path="/" component={Homepage}>
+        <IndexRoute component={Homepage}></IndexRoute>
         <Route path="dashboard2" name="dashboard2" component={ProviderDashboard}></Route>
         <Route path="permissions2" name="permissions2" component={ProviderPermissions}></Route>
     </Route>
